@@ -1,5 +1,4 @@
 {
-  "name": "sds",
   "private": "true",
   "description": "Salda Packages",
   "scripts": {},
@@ -13,6 +12,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "version": "0.0.1"
+  ]
 }

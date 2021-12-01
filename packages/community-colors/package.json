@@ -1,5 +1,5 @@
 {
-  "name": "@sds/community-colors",
+  "name": "@leejss/community-colors",
   "version": "0.0.2",
   "author": "leejss",
   "license": "MIT",
@@ -7,5 +7,8 @@
     "type": "git",
     "url": "https://github.com/leejss/sds.git",
     "directory": "packages/community-colors"
+  },
+  "devDependencies": {
+    "rollup-plugin-css-only": "^3.1.0"
   }
 }
