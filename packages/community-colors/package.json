@@ -1,6 +1,11 @@
 {
   "name": "@sds/community-colors",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "author": "leejss",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leejss/sds.git",
+    "directory": "packages/community-colors"
+  }
 }
