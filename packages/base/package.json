@@ -1,11 +1,11 @@
 {
-  "name": "@leejss/pro-colors",
+  "name": "@leejss/base-style",
   "version": "0.0.3",
   "author": "leejss",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/leejss/sds.git",
-    "directory": "packages/pro-colors"
+    "directory": "packages/base"
   }
 }

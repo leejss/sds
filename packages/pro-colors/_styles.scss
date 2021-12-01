@@ -1,0 +1,6 @@
+@use "palette";
+
+.primary {
+  color: #fff;
+  background: palette.$primary;
+}
