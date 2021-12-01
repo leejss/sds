@@ -2,6 +2,7 @@
   "name": "@leejss/pro-colors",
   "version": "0.0.4",
   "author": "leejss",
+  "private": "false",
   "license": "MIT",
   "repository": {
     "type": "git",
