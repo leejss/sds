@@ -1,0 +1,12 @@
+{
+  "name": "sds",
+  "private": "true",
+  "description": "Salda Packages",
+  "scripts": {},
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

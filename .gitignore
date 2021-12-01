@@ -1,0 +1,13 @@
+.DS_Store
+.vscode
+
+*.log
+node_modules
+
+# Build output
+/build/
+/dist/
+packages/*/dist
+packages/**/*.js
+packages/**/*.d.ts
+packages/**/package-lock.json
