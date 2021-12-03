@@ -1,14 +1,9 @@
 {
   "name": "@leejss/components",
-  "version": "0.0.3",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "files": [
-    "dist/*"
-  ],
+  "version": "0.1.1",
+  "module": "dist/index.js",
   "scripts": {
-    "build": "rollup -c rollup.config.js",
-    "build:types": "tsc -p tsconfig.build.json"
+    "build": "rollup -c rollup.config.js"
   },
   "types": "dist/types/index.d.ts",
   "author": "leejss",
@@ -36,15 +31,21 @@
     "@svgr/rollup": "^6.0.0",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
+    "autoprefixer": "^10.4.0",
     "babel-loader": "^8.2.3",
     "classnames": "^2.3.1",
+    "cssnano": "^5.0.12",
+    "postcss-scss": "^4.0.2",
     "rollup": "^2.60.2",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-node-externals": "^2.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-scss": "^3.0.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.16.3"
+    "@babel/runtime": "^7.16.3",
+    "classnames": "^2.3.1",
+    "postcss": "^8.4.4"
   }
 }

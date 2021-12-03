@@ -13,12 +13,11 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
     "jsx": "react",
-    "typeRoots": ["./src/@types", "./src/typing.d.ts"]
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "."
   },
-  "include": [
-    "./src/*",
-  ],
-  "exclude": ["node_modules"]
+  "include": ["./src/*", "postcss.config.js"],
+  "exclude": ["node_modules", "dist"]
 }
